@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# User Management Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application that allows you to view, add, edit, and delete user information. It is built using React, TypeScript, and Tailwind.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You will need to have the following software installed on your machine:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Node.js
+2. npm (comes with Node.js)
+3. TypeScript
+4. React
+5. Tailwind
 
-### `npm test`
+## Installing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these steps to get the development environment up and running:
 
-### `npm run build`
+1. Clone the repository:
+   `git clone https://github.com/AshutoshVJTI/User-Management-Web-App.git`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`cd User-Management-Web-App`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies:
 
-### `npm run eject`
+`npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Run the development server:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This will start the development server and open the website in your default browser. The website will automatically reload if you make any changes to the code.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Usage
 
-## Learn More
+On the main page, you will see a list of users. You can use the Add User button to add a new user and you can also click the Edit or Delete buttons next to a user to modify or delete their information. You can also download the list using 'Download CSV' button.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you want to contribute to the project, please follow these guidelines:
+
+1. Fork the repository
+2. Create a new branch for your changes
+3. Make your changes
+4. Commit your changes and push to your fork
+5. Create a pull request to the main repository
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/AshutoshVJTI/User-Management-Web-App/blob/main/LICENSE).
